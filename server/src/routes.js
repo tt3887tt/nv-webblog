@@ -18,7 +18,8 @@ module.exports = (app) => {
 
     // get user by id
     app.get('/user/:userId',
-      UserController.show
+       UserController.show
+       //console.log('test route')
     )
 
     // get all user
